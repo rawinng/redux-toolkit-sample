@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import Counter from "./components/Counter";
 
 const Logo = () => {
   console.log(`Logo display`);
@@ -12,6 +13,7 @@ const App = () => {
       <header className="App-header" data-testid="header">
         <Logo />
         Hello, world!!
+        <Counter />
       </header>
     </div>
   );
